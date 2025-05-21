@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.leftContainer{
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+  background-color: #2d2d2d;
+  position: relative;
+}
+
+
+.leftContainer button{
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.7rem;
+  background-color: rgb(0, 255, 119);
+  border: none;  
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.code{
+  height: 100%;
+}
+
+.rightContainer{
+  padding: 1rem 2rem;
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 1rem;
+  background-color: rgb(46, 44, 44);
+  font-family: Consolas;
+  color: white;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+.rightContainer .language-javascript{
+  background-color: rgb(65, 63, 63);
+  border-radius: 0.7rem;
+}
