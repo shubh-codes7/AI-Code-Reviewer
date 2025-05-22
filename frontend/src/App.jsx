@@ -17,7 +17,7 @@ function App() {
   })
 
   function reviewCode(){
-    fetch("http://localhost:3000/get-response", {
+    fetch("https://ai-code-reviewer-api-kappa.vercel.app/get-response", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
